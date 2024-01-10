@@ -1,10 +1,7 @@
 {
-	"name": "mixpanel-tracking-proxy",
-	"options": {
-		"allow-unauthenticated": true,
-		"memory": "512Mi",
-		"cpu": "1",
-		"port": 80,
-		"concurrency": 80
-	}
+    "name": "proxy",
+    "options": {
+        "allow-unauthenticated": true,
+        "port": 80
+    }
 }
